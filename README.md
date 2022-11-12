@@ -47,9 +47,9 @@ This algorithm for determining whether requests can be safely granted. Let **Req
 
 3. Have the system pretend to have allocated the requested resources to process Pi by modifying the state as follows:
 
-                                                            Available= Available-Request[i];
-                                                            Allocation[i]=Allocation[i]+Request[i];
-                                                            Need[i]=Need[i]-Request[i];
+                                     Available= Available-Request[i];                                                               
+                                     Allocation[i]=Allocation[i]+Request[i];
+                                     Need[i]=Need[i]-Request[i];
 
 ## <div id = "Refe"> References </div>
 
